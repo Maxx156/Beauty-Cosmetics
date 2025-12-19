@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Cosmetics - Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>💄 Beauty Cosmetics</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="staff.html">Персонал</a></li>
+                    <li><a href="products.html">Товары</a></li>
+                    <li><a href="cart.html">Корзина <span id="cart-count">0</span></a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Контакты</h1>
+                <p>Свяжитесь с нами любым удобным способом</p>
+            </div>
+        </section>
+
+        <section class="contacts-section">
+            <div class="container">
+                <div class="contacts-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Адрес</h3>
+                        <p>г. Москва, ул. Тверская, д. 10</p>
+                        <p>ТЦ "Красота", 2 этаж</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Телефон</h3>
+                        <p>+7 (495) 123-45-67</p>
+                        <p>+7 (495) 123-45-68</p>
+                        <p class="contact-hours">Пн-Вс: 10:00 - 22:00</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>info@beautycosmetics.ru</p>
+                        <p>order@beautycosmetics.ru</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">💬</div>
+                        <h3>Социальные сети</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">VK</a>
+                            <a href="#" class="social-link">Telegram</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <h2 class="section-title">Напишите нам</h2>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+
+                <div class="map-section">
+                    <h2 class="section-title">Как нас найти</h2>
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <p>📍 г. Москва, ул. Тверская, д. 10</p>
+                            <p>ТЦ "Красота", 2 этаж</p>
+                            <p class="map-note"><div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/20728/korolev/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Королёв</a><a href="https://yandex.ru/maps/213/moscow/house/tverskaya_ulitsa_10s1/Z04YcAdoSkwFQFtvfXt3c3RkYQ==/?ll=37.608391%2C55.762875&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Тверская улица, 10с1 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.608391%2C55.762875&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjcyMzQ2NRI-0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAsINCi0LLQtdGA0YHQutCw0Y8g0YPQu9C40YbQsCwgMTDRgTEiCg3-bhZCFTANX0I%2C&z=16" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Beauty Cosmetics</h3>
+                    <p>Ваш надежный партнер в мире красоты</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="staff.html">Персонал</a></li>
+                        <li><a href="products.html">Товары</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>📧 info@beautycosmetics.ru</p>
+                    <p>📞 +7 (495) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Beauty Cosmetics. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

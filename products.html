@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Cosmetics - Товары</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>💄 Beauty Cosmetics</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="staff.html">Персонал</a></li>
+                    <li><a href="products.html" class="active">Товары</a></li>
+                    <li><a href="cart.html">Корзина <span id="cart-count">0</span></a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Каталог товаров</h1>
+                <p>Широкий ассортимент косметики для создания идеального образа</p>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-category="all">Все товары</button>
+                    <button class="filter-btn" data-category="lipstick">Помады</button>
+                    <button class="filter-btn" data-category="eyeshadows">Тени</button>
+                    <button class="filter-btn" data-category="skincare">Уход</button>
+                    <button class="filter-btn" data-category="nail">Маникюр</button>
+                </div>
+
+                <div class="products-grid" id="products-grid">
+                    <!-- Товары будут добавлены через JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Beauty Cosmetics</h3>
+                    <p>Ваш надежный партнер в мире красоты</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="staff.html">Персонал</a></li>
+                        <li><a href="products.html">Товары</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>📧 info@beautycosmetics.ru</p>
+                    <p>📞 +7 (495) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Beauty Cosmetics. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
